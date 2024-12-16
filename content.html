@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>租车App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">租车App</div>
+            <ul class="nav-links">
+                <li><a href="#search">搜索</a></li>
+                <li><a href="#vehicles">车辆列表</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search">
+        <h1>搜索车辆</h1>
+        <form id="search-form">
+            <input type="text" placeholder="车型、品牌或车牌号" required>
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+
+    <section id="vehicles">
+        <h2>车辆列表</h2>
+        <div class="vehicle-list">
+            <!-- 车辆项示例 -->
+            <div class="vehicle-item">
+                <img src="car-placeholder.jpg" alt="车辆图片">
+                <div class="vehicle-info">
+                    <h3>车辆型号</h3>
+                    <p>品牌：品牌名</p>
+                    <p>价格：每日租金</p>
+                    <button>预订</button>
+                </div>
+            </div>
+            <!-- 更多车辆项 -->
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>联系我们</h3>
+        <p>有任何问题请联系我们</p>
+        <p>电话：123-456-7890</p>
+        <p>邮箱：contact@rentacarapp.com</p>
+    </footer>
+
+</body>
+</html>
